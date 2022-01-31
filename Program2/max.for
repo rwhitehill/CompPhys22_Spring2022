@@ -2,11 +2,11 @@
        
        ! set to identify variable types explicitly
        implicit none
+
        ! declare variables
        integer, parameter :: dim = 5
-       integer, dimension(dim) :: k
-       integer, dimension(dim) :: x, y
-       integer :: i,j,temp,idx,max_idx,maximum
+       integer, dimension(dim) :: x
+       integer :: i,j,idx,temp
        
        ! prompt user to input five numbers
        write(*,*)'Enter five real numbers: '
@@ -16,39 +16,28 @@
        read *, x(4)
        read *, x(5)
        
-       ! set sort index to 1 and stored indices to 0
-       idx = 1
-       k = (/ 0,0,0,0,0 /)
        ! loop through input values
        do i = 5,1,-1
-           ! ask if sort index stored, increment if yes
-           !if (ANY(idx == k)) then
-           !    idx = idx + 1
-           !end if
+           idx = 1
 
-           ! set max to value at sort index and max index to sort index
-           !maximum = x(idx)
-           !max_idx = idx
-            
            ! loop over values for comparison
-           do j = 1,5
-               ! ask if loop value bigger than sort value or if loop index 
-               ! not yet stored, if yes --> set new maximum and index
-               if (x(i) > x(j)) then
+           do j = 2,i
+               ! compare values at current index and next index
+               ! if current value larger --> switch places
+               if (x(idx) > x(j)) then
                    temp = x(j)
-                   max_idx = j
+                   x(j) = x(idx)
+                   x(idx) = temp
                end if
+               ! increment current index
+               idx = idx + 1
            end do
-
-           ! after comparison set next maximum and index of value
-           y(i) = maximum
-           k(i) = max_idx
 
        end do
 
        ! write values in decreasing order
-       do i = 5,1,-1
-           write(*,*)y(i)
+       do i = 1,5
+           write(*,*)x(i)
        end do
 
        end program max
