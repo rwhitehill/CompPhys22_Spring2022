@@ -4,7 +4,7 @@
       double precision :: x(8),y(8)
       double precision :: a,b
       double precision :: X2,sigma,sigma_a,sigma_b
-      double precision :: Del1,Del2,N
+      double precision :: D,N
       integer :: i
 
       open(10,file='tree.dat')
@@ -14,17 +14,15 @@
       close(10)
       
       N = 8.0
-      Del1 = N*sum(x*y) - sum(x)*sum(y)
-      a = (sum(x**2)*sum(y) - sum(x)*sum(x*y))/Del1
-      b = (N*sum(x*y) - sum(x)*sum(y))/Del1
+      D = N*sum(x**2) - sum(x)**2
+      a = (sum(x**2)*sum(y) - sum(x)*sum(x*y))/D
+      b = (N*sum(x*y) - sum(x)*sum(y))/D
+      
+      sigma = sqrt(sum((y-(a+b*x))**2)/(N-2))
+      sigma_a = sigma*sqrt(sum(x)/D)
+      sigma_b = sigma*sqrt(N/D)
         
-      X2 = sum((y-(a+b*x))**2)
-      sigma = sqrt(X2/(N-2))
-
-      Del2 = N*sum(x**2) - sum(x)**2
-      sigma_a = sigma**2*sum(x)/Del2
-      sigma_b = N*sigma**2/Del2
-
-      write(*,*)a,b,sigma,sigma_a,sigma_b
+      write(*,*)a,b
+      write(*,*)sigma,sigma_a,sigma_b
 
       end program fit
