@@ -1,7 +1,7 @@
       program fit
       
       implicit none
-      double precision :: x(8),y(8)
+      double precision :: x(8),y(8),res(8)
       double precision :: a,b
       double precision :: X2,sigma,sigma_a,sigma_b
       double precision :: D,N
@@ -18,11 +18,14 @@
       a = (sum(x**2)*sum(y) - sum(x)*sum(x*y))/D
       b = (N*sum(x*y) - sum(x)*sum(y))/D
       
-      sigma = sqrt(sum((y-(a+b*x))**2)/(N-2))
+      res = y - (a+b*x)
+       
+      sigma = sqrt(sum(res**2)/(N-2))
       sigma_a = sigma*sqrt(sum(x)/D)
       sigma_b = sigma*sqrt(N/D)
         
       write(*,*)a,b
+      write(*,*)sum(res)/N
       write(*,*)sigma,sigma_a,sigma_b
 
       end program fit
