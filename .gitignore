@@ -1,3 +1,4 @@
 *.mp4
 *.out
 *.exe
+.DS_Store
