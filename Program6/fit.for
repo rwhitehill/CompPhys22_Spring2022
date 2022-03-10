@@ -3,7 +3,7 @@
       implicit none
       double precision :: x(8),y(8),res(8)
       double precision :: a,b
-      double precision :: X2,sigma,sigma_a,sigma_b
+      double precision :: X2,avg,sig,goodness,sigma,sigma_a,sigma_b
       double precision :: D,N
       integer :: i
 
@@ -19,13 +19,20 @@
       b = (N*sum(x*y) - sum(x)*sum(y))/D
       
       res = y - (a+b*x)
-       
+      
+      avg = sum(y)/N
+      sig = sqrt(sum((y-avg)**2)/(N-1))
+      X2 = sum(res**2/sig)
+      goodness = X2/(N-2)
+ 
       sigma = sqrt(sum(res**2)/(N-2))
       sigma_a = sigma*sqrt(sum(x)/D)
       sigma_b = sigma*sqrt(N/D)
-        
-      write(*,*)a,b
-      write(*,*)sum(res)/N
-      write(*,*)sigma,sigma_a,sigma_b
+
+      write(*,*)'a = ',a,sigma_a
+      write(*,*)'b = ',b,sigma_b
+      write(*,*)'sigma = ',sigma
+      write(*,*)'chisq = ',X2
+      write(*,*)'goodness of fit: ',goodness
 
       end program fit
