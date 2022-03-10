@@ -1,0 +1,2 @@
+The distance from the origin to (1.000,2.000) is 2.236
+
