@@ -1,0 +1,215 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.1.23)  31 MAR 2022 19:03
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./explanation.tex
+(explanation.tex
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-07-12>
+(/home/rwhitehill/.miktex/texmfs/install/tex/latex/base/article.cls
+Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
+(/home/rwhitehill/.miktex/texmfs/install/tex/latex/base/size12.clo
+File: size12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/home/rwhitehill/.miktex/texmfs/install/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(/home/rwhitehill/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/04/20 v2.17j AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/home/rwhitehill/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/home/rwhitehill/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen139
+))
+(/home/rwhitehill/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+)
+(/home/rwhitehill/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count190
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count191
+\leftroot@=\count192
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count193
+\DOTSCASE@=\count194
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count195
+\c@MaxMatrixCols=\count196
+\dotsspace@=\muskip16
+\c@parentequation=\count197
+\dspbrk@lvl=\count198
+\tag@help=\toks19
+\row@=\count199
+\column@=\count266
+\maxfields@=\count267
+\andhelp@=\toks20
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks21
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/home/rwhitehill/.miktex/texmfs/install/tex/latex/physics/physics.sty
+Package: physics 
+
+(/usr/local/share/miktex-texmf/tex/latex/l3packages/xparse/xparse.sty
+(/home/rwhitehill/.miktex/texmfs/install/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-07-12 L3 programming layer (loader) 
+
+(/home/rwhitehill/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.d
+ef
+File: l3backend-pdftex.def 2021-07-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count268
+\l__pdf_internal_box=\box52
+))
+Package: xparse 2021-06-18 L3 Experimental document command parser
+)) (/home/rwhitehill/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+(/home/rwhitehill/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks23
+)
+(/home/rwhitehill/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/rwhitehill/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/home/rwhitehill/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/home/rwhitehill/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+)
+(/home/rwhitehill/.miktex/texmfs/install/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count269
+\float@exts=\toks24
+\float@box=\box53
+\@float@everytoks=\toks25
+\@floatcapt=\box54
+)
+(explanation.aux)
+\openout1 = `explanation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+
+(/home/rwhitehill/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count270
+\scratchdimen=\dimen150
+\scratchbox=\box55
+\nofMPsegments=\count271
+\nofMParguments=\count272
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count273
+\MPscratchDim=\dimen151
+\MPnumerator=\count274
+\makeMPintoPDFobject=\count275
+\everyMPtoPDFconversion=\toks27
+)
+(/home/rwhitehill/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.s
+ty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+ (/home/rwhitehill/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Overfull \hbox (0.83623pt too wide) in paragraph at lines 22--23
+[]\OT1/cmr/m/n/12 We use the Runge-Kutta method to solve the system, which is s
+ummarized
+ []
+
+<./output.png, id=1, 752.8125pt x 602.25pt>
+File: ./output.png Graphic file (type png)
+<use ./output.png>
+Package pdftex.def Info: ./output.png  used on input line 44.
+(pdftex.def)             Requested size: 376.40532pt x 301.12425pt.
+[1
+
+{/home/rwhitehill/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
+<./output1.png, id=13, 752.8125pt x 602.25pt>
+File: ./output1.png Graphic file (type png)
+<use ./output1.png>
+Package pdftex.def Info: ./output1.png  used on input line 50.
+(pdftex.def)             Requested size: 376.40532pt x 301.12425pt.
+ [2 <./output.png>] [3 <./output1.png>] (explanation.aux) ) 
+Here is how much of TeX's memory you used:
+ 2575 strings out of 480781
+ 34688 string characters out of 2899559
+ 338500 words of memory out of 3000000
+ 20256 multiletter control sequences out of 15000+600000
+ 406840 words of font info for 39 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 70i,15n,81p,472b,220s stack positions out of 5000i,500n,10000p,200000b,80000s
+</home/rwhitehill/.m
+iktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/rwhitehil
+l/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></home/rwhit
+ehill/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/rw
+hitehill/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></home
+/rwhitehill/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></ho
+me/rwhitehill/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></
+home/rwhitehill/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b>
+Output written on explanation.pdf (3 pages, 98787 bytes).
+PDF statistics:
+ 51 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+
