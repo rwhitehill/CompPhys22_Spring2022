@@ -1,4 +1,5 @@
 *.mp4
+*.trk
 *.out
 *.exe
 .DS_Store
