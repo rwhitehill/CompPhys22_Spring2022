@@ -2,5 +2,10 @@
 *.trk
 *.out
 *.exe
+*.synctex.gz
+*.log
+*.fls
+*.aux
+*.fdb_latexmk
 .DS_Store
 .ipynb_checkpoints
